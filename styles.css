@@ -1,9 +1,9 @@
 /*  your css code here. If applicable */
-span:before{
+span::before{
 	content:"Before Element ";
 	color:red;
 }
-span:after{
+span::after{
 	content:" After Element";
 	color:red;
 }
